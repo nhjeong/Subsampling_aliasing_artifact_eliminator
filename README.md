@@ -1,0 +1,2 @@
+# Subsampling_aliasing_artifact_eliminator
+Artificial Intelligence-based Magnetic Resonance Image Reconstruction method using Generative adversarial network
