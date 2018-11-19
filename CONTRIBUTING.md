@@ -1,10 +1,6 @@
 # Introduction
 
-### Write something nice here!
-
->First off, thank you for considering contributing to Active Admin. It's people like you that make Active Admin such a great tool.
-
-[source: [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md)] **Need more inspiration?** [1] [Read The Docs](http://read-the-docs.readthedocs.org/en/latest/contribute.html) [2] [Mustache.js](https://github.com/janl/mustache.js/#contributing)
+First off, thank you for considering contributing to our project. It's people like you that make our method such a better tool.
 
 ### Tell them why they should read your guidelines.
 
