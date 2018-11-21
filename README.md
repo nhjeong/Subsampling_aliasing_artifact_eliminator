@@ -5,7 +5,7 @@ Artificial Intelligence-based Magnetic Resonance Image Reconstruction method usi
 ## Sample raw data for input
 2D T2-weighted brain data for artificial intelligence imaging time acceleration
 * Consisting of 5 files
-* (# of PE lines) x (# of FE lines) x (# of channels) x (# of slices)  
+* [# of PE lines] x [# of FE lines] x [# of channels] x [# of slices]  
 * Open access: [xairc homepage](https://xai.kaist.ac.kr/research/data/)
 
 ## Environment
