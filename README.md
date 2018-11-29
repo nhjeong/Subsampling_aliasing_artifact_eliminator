@@ -8,6 +8,8 @@ Our method is a parallel MR imaging method using deep learning. Various studies 
 
 
 
+
+
 ## Sample raw data for input
 2D T2-weighted brain data for artificial intelligence imaging time acceleration
 * Consisting of 5 .mat files
