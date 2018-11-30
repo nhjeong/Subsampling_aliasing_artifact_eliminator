@@ -53,7 +53,7 @@ When filing an issue, make sure to answer these four questions:
 
 # How to suggest a feature or enhancement
 
-Our project is based on the MR parallel imaging method. It was our first trial to reduce aliasing artifacts accompanied with subsampling on phase-encoding axis using multilayer perceptron and L2-loss function. (Please refer to [this paper](https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.12600)) However, 
+Our project is based on the MR parallel imaging method. It was our first trial to reduce aliasing artifacts accompanied with subsampling on phase-encoding axis using multilayer perceptron and L2-loss function. (Please refer to [this paper](https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.12600).) There were some blurring artifacts on the reconstructed images because of the L2-loss function, so we have tried to solve it with a vanilla Generative Adversarial Network. If there is a more effective way to solve this, please suggest us anytime.
 
 
 
