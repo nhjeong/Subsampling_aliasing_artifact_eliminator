@@ -114,5 +114,5 @@ If there is back-and-forth or signoff required, say so. Ask them to scope the fe
 
 # Community
 
-If you have any questions, you can send an e-mail to nhjeong@athena.kaist.ac.kr
+If you have any questions, you can send an e-mail to ICSL.aihelp@gmail.com
 
