@@ -8,15 +8,6 @@ There are many ways to contribute, from writing tutorials or blog posts, improvi
 
 
 # Your First Contribution
-Help people who are new to your project understand where they can be most helpful. This is also a good time to let people know if you follow a label convention for flagging beginner issues.
-
-> Unsure where to begin contributing to Atom? You can start by looking through these beginner and help-wanted issues:
-> Beginner issues - issues which should only require a few lines of code, and a test or two.
-> Help wanted issues - issues which should be a bit more involved than beginner issues.
-> Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
-
-[source: [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#your-first-code-contribution)] **Need more inspiration?** [1] [Read the Docs](http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development) [2] [Django](https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps) (scroll down to "Guidelines" as well)
-
 
 Working on your first Pull Request? 
 -> You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
