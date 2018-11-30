@@ -33,7 +33,6 @@ Help people who are new to your project understand where they can be most helpfu
 
 
 Working on your first Pull Request? 
-
 -> You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
 At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first.
