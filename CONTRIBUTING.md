@@ -53,7 +53,7 @@ When filing an issue, make sure to answer these four questions:
 
 # How to suggest a feature or enhancement
 
-Our project is based on the MR parallel imaging method. It was our first trial to reduce aliasing artifacts accompanied with subsampling on phase-encoding axis using multilayer perceptron and L2-loss function. (Please refer to [this paper]) However, 
+Our project is based on the MR parallel imaging method. It was our first trial to reduce aliasing artifacts accompanied with subsampling on phase-encoding axis using multilayer perceptron and L2-loss function. (Please refer to [this paper](https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.12600)) However, 
 
 
 
