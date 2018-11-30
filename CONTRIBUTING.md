@@ -51,7 +51,7 @@ As a rule of thumb, changes are obvious fixes if they do not introduce any new f
 
 
 # How to report a bug
-If you find a security vulnerability, do NOT open an issue. Email ICSL.aihelp@gmail.com instead.
+
 
 When filing an issue, make sure to answer these four questions:
 
@@ -59,6 +59,8 @@ When filing an issue, make sure to answer these four questions:
 2. What did you do?
 3. What did you expect to see?
 4. What did you see instead?
+
+* If you find a security vulnerability, do NOT open an issue. Email ICSL.aihelp@gmail.com instead.
 
 # How to suggest a feature or enhancement
 ### If you have a particular roadmap, goals, or philosophy for development, share it here.
