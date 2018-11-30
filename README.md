@@ -23,7 +23,7 @@ Our method is a parallel MR imaging method using deep learning. Various studies 
 
 
 ## Reference
-* Kinam Kwon, Dongchan Kim, and HyunWook Park. "A parallel MR imaging method using multilayer perceptron." *Medical physics* 44.12 (2017): 6209-6224.
+* Kinam Kwon, Dongchan Kim, and HyunWook Park. "A parallel MR imaging method using multilayer perceptron." *Medical physics* 44.12 (2017): 6209-6224. [Link](https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.12600)
 
 ## Contributing
 _"Thanks for your interest in contributing! There are many ways to contribute to this project. Get started [here](https://github.com/nhjeong/Subsampling_aliasing_artifact_eliminator/blob/master/CONTRIBUTING.md)"_
