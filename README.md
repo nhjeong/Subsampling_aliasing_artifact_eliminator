@@ -2,7 +2,7 @@
 Artificial Intelligence-based Magnetic Resonance Image Reconstruction method using Generative adversarial network
 
 ## Abstract
-Our method is a parallel MR imaging method using deep learning. Various studies are under way to reduce the scan time of MRI. Undersampling without getting all of the phase encoding lines can save a lot of scan time, but aliasing artifacts occur. We attempted to remove this artifact using neural networks. Although it succeeded in getting some gain with multilayer perceptron, we tried to go further using Generative Adversarial Networks.
+Our method is a parallel MR imaging method using deep learning. Various studies are under way to reduce the scan time of MRI. Undersampling without getting all of the phase encoding lines can save a lot of scan time, but aliasing artifacts are accompanied. We attempted to remove this artifact using neural networks. Although we succeeded in getting some gain with multilayer perceptron, we tried to go further using Generative Adversarial Networks.
 
 ![scheme](./img/scheme.PNG)
 
