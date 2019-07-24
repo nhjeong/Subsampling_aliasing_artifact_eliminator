@@ -95,15 +95,15 @@ for i in range(36):
     error = ans - pred
     rmse = (np.sum(error ** 2) / np.sum(ans ** 2)) ** 0.5
     plt.figure()
-    plt.subplots(1,3,1)
+    plt.subplot(1,3,1)
     plt.imshow(ans)
     plt.xticks([])
     plt.yticks([])    
-    plt.subplots(1,3,2)
+    plt.subplot(1,3,2)
     plt.imshow(pred)
     plt.xticks([])
     plt.yticks([])    
-    plt.subplots(1,3,3)
+    plt.subplot(1,3,3)
     plt.imshow(error)
     plt.xticks([])
     plt.yticks([])
