@@ -9,11 +9,17 @@ Our method is a parallel MR imaging method using deep learning. Various studies 
 
 
 
-## Sample raw data for input
+## Sample raw data for training dataset
 2D T2-weighted brain data for artificial intelligence imaging time acceleration
 * Consisting of 5 .mat files
 * [# of PE lines] x [# of FE lines] x [# of channels] x [# of slices]  
 * Open access: [xairc homepage](https://xai.kaist.ac.kr/research/data/)
+
+## Preprocessed data
+2D T2-weighted brain data for artificial intelligence imaging time acceleration
+* Training dataset consisting of 85 subjects
+* Test dataset consisting of 2 subjects
+* Open access: [Google drive](https://xai.kaist.ac.kr/research/data/)
 
 ## Environment
 * Python 3.6.6
