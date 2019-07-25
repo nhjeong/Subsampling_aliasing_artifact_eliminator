@@ -90,23 +90,30 @@ test_result = output.cpu().detach().numpy()
 
 nrmse = []
 for i in range(36):
+    tmp = testset.test_X_input[384*i:384*(i+1),0:2592] + 1j*testset.test_X_input[384*i:384*(i+1),2592:5184]
+    undersampled = np.zeros((384, 216))
+    for k in range(12):
+        undersampled += np.abs(tmp[:,k*216:(k+1)*216])
     ans = testset.test_Y_input[384*i:384*(i+1),:]
     pred = test_result[384*i:384*(i+1),:]
     error = ans - pred
     rmse = (np.sum(error ** 2) / np.sum(ans ** 2)) ** 0.5
-    plt.figure()
-    plt.subplot(1,3,1)
-    plt.imshow(ans)
-    plt.xticks([])
-    plt.yticks([])    
-    plt.subplot(1,3,2)
+    plt.figure(figsize=[10, 40])
+    plt.subplot(1,4,1)
+    plt.imshow(undersampled)
+    plt.axis('off')      
+    plt.subplot(1,4,2)
     plt.imshow(pred)
-    plt.xticks([])
-    plt.yticks([])    
-    plt.subplot(1,3,3)
-    plt.imshow(error)
-    plt.xticks([])
-    plt.yticks([])
+    plt.axis('off')      
+    plt.subplot(1,4,2)
+    plt.imshow(pred)
+    plt.axis('off')       
+    plt.subplot(1,4,3)
+    plt.imshow(ans)
+    plt.axis('off') 
+    plt.subplot(1,4,4)
+    plt.imshow(np.abs(error)*2, clim=[0,1])
+    plt.axis('off') 
     plt.show()    
     nrmse.append(rmse)
 print('nRMSE: %.3lf %%' % (np.mean(nrmse)*100))
