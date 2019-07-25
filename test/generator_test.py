@@ -5,6 +5,7 @@ import h5py
 import numpy as np
 import scipy.io as sio
 import matplotlib.pyplot as plt
+from skimage.transform import resize
 import os
 os.environ['CUDA_VISIBLE_DEVICES']='2'
 
@@ -100,19 +101,20 @@ for i in range(36):
     rmse = (np.sum(error ** 2) / np.sum(ans ** 2)) ** 0.5
     plt.figure(figsize=[10, 40])
     plt.subplot(1,4,1)
-    plt.imshow(undersampled)
-    plt.axis('off')      
+    plt.imshow(resize(undersampled, (216, 216), preserve_range=True))
+    plt.title('Aliased image')
+    plt.axis('off')           
     plt.subplot(1,4,2)
-    plt.imshow(pred)
-    plt.axis('off')      
-    plt.subplot(1,4,2)
-    plt.imshow(pred)
+    plt.imshow(resize(pred, (216, 216), preserve_range=True))
+    plt.title('Predicted image')
     plt.axis('off')       
     plt.subplot(1,4,3)
-    plt.imshow(ans)
+    plt.imshow(resize(ans, (216, 216), preserve_range=True))
+    plt.title('Ground truth')    
     plt.axis('off') 
     plt.subplot(1,4,4)
-    plt.imshow(np.abs(error)*2, clim=[0,1])
+    plt.imshow(resize(np.abs(error), (216, 216), preserve_range=True), clim=[0,1])
+    plt.title('Difference')     
     plt.axis('off') 
     plt.show()    
     nrmse.append(rmse)
