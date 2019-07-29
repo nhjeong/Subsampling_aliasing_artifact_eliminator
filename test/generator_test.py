@@ -119,4 +119,5 @@ for i in range(36):
     plt.savefig('test'+str(i+1))    
     plt.show()    
     nrmse.append(rmse)
+    print('Saved Fig. %d' % (i+1))      
 print('nRMSE: %.3lf %%' % (np.mean(nrmse)*100))
