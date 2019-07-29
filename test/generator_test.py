@@ -99,7 +99,7 @@ for i in range(36):
     pred = test_result[384*i:384*(i+1),:]
     error = ans - pred
     rmse = (np.sum(error ** 2) / np.sum(ans ** 2)) ** 0.5
-    plt.figure(figsize=[10, 40])
+    plt.figure(figsize=[40, 10])
     plt.subplot(1,4,1)
     plt.imshow(resize(undersampled, (216, 216), preserve_range=True))
     plt.title('Aliased image')
@@ -115,7 +115,8 @@ for i in range(36):
     plt.subplot(1,4,4)
     plt.imshow(resize(np.abs(error), (216, 216), preserve_range=True), clim=[0,1])
     plt.title('Difference')     
-    plt.axis('off') 
+    plt.axis('off')
+    plt.savefig('test'+str(i+1))    
     plt.show()    
     nrmse.append(rmse)
 print('nRMSE: %.3lf %%' % (np.mean(nrmse)*100))
